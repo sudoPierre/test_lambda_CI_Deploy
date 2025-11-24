@@ -7,6 +7,6 @@ def lambda_handler(event, context):
     #print("Received event: " + json.dumps(event, indent=2))
     print("valueTest = " + event['key1'])
     print("valueTest2 = " + event['key2'])
-    print("value3 = " + event['key3'])
+    print("valueTest3 = " + event['key3'])
     return event['key1']  # Echo back the first key value
     #raise Exception('Something went wrong')
