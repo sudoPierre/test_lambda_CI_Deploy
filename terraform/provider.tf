@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "test-terraform-backend-pierre"
-    key    = "state/terraform.tfstate"
-    region = "us-east-1"
+    bucket         = "test-oicd"
+    key            = "dev/terraform.tfstate"
+    region         = "us-east-1"
   }
 }
 

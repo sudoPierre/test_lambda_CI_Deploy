@@ -33,7 +33,7 @@ jobs:
     - name: Connexion à AWS via OIDC
       uses: aws-actions/configure-aws-credentials@v4
       with:
-        role-to-assume: arn:aws:iam::123456789012:role/TonRoleGitHubActionsOIDC # <-- À MODIFIER AVEC TON ARN
+        role-to-assume: arn:aws:iam::798256686325:role/test_oicd
         aws-region: ${{ env.AWS_REGION }}
 
     # 3. On installe Terraform
